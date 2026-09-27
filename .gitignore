@@ -1,0 +1,18 @@
+# 依赖
+node_modules/
+
+# 日志
+*.log
+npm-debug.log*
+
+# 编辑器 / 系统垃圾
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 本地临时
+/tmp/
+*.tmp
+
+# 插件运行时会写到 DSH_HOME，不在仓库里
+# （账号库、台账、配置都在 ~/.dsh/deepseek-web-vision/）
